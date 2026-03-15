@@ -38,12 +38,13 @@ Epochs:	5
 Full dataset training and extended epochs are expected to improve F1 significantly.
 
 ## Project Structure
-
+```
 Protein-subcellular-localization/
 │
-├── protein_classifier.py   # Full pipeline: dataset, model, training, evaluation
+├── protein_classifier.py   # pipeline: dataset, model, training, evaluation
 ├── requirements.txt        # Python dependencies
 └── README.md
+```
 
 
 ## How to Run
