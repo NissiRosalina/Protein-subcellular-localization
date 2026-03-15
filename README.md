@@ -32,10 +32,10 @@ EfficientNet achieves strong accuracy with fewer parameters than heavier archite
 Standard pretrained models expect 3-channel (RGB) images. Here, the 4th channel (yellow/ER stain) adds biologically meaningful information. The pretrained weights for the first 3 channels are preserved; the 4th channel is initialized as their average — a common and effective technique for extending pretrained models to new modalities.
 
 ## Results
-Best Val F1: 	0.44175905395417586
-Training subset: 3,000 samples
-Epochs:	5
-Full dataset training and extended epochs are expected to improve F1 significantly.
+The model achieved a best validation F1 score of **0.4418** at epoch 4 out of 5, 
+trained on a 3,000 sample subset of the full HPA dataset. Loss consistently 
+decreased across epochs, suggesting the model was still improving — 
+training on the full dataset would likely push F1 significantly higher.
 
 ## Project Structure
 ```
