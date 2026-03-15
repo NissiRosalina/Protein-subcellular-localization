@@ -17,7 +17,7 @@ Yellow	ER	Endoplasmic reticulum
 Heavily imbalanced — some classes are much rarer than others
 
 
-## Model Architecture
+## Model architecture
 Backbone: EfficientNet-B0 (pretrained on ImageNet via timm)
 Input: Modified first conv layer — accepts 4 channels instead of the standard 3
 Output: 19-dimensional sigmoid output (one probability per class)
@@ -47,7 +47,7 @@ Protein-subcellular-localization/
 ```
 
 
-## How to Run
+## How to run
 This project is designed to run on Kaggle Notebooks where the HPA dataset is directly available.
 Go to Kaggle and create a new notebook
 Add the dataset: 'hpa-single-cell-image-classification'
@@ -66,7 +66,7 @@ scikit-learn
 tqdm
 matplotlib
 
-## Key Concepts Used
+## Key concepts used
 Transfer learning with pretrained CNNs
 Multi-label classification with binary cross-entropy
 Class imbalance handling via weighted loss
